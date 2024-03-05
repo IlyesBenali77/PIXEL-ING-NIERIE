@@ -1,0 +1,126 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.HomeContainer {
+  padding: 20px;
+  background-color: bleu;
+}
+
+.Home {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.Home input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+.Home button.Home2 {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Home button.Home2:hover {
+  background-color: black;
+}
+
+.Home:hover {
+  background-color: grey;
+}
+
+.CountryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.CountryCard {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.CountryCard:hover {
+  transform: translateY(-10px);
+}
+
+.CountryFlag {
+  max-width: 130px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.CountryFlag:hover {
+  transform: scale(1.1);
+}
+
+.CountryName {
+  font-family: fantasy;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+
+.container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10%;
+  max-width: 400px;
+}
+
+.container h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.container img {
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.container p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.write {
+  font-weight: bold;
+}
